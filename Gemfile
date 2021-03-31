@@ -44,7 +44,7 @@ gem "oauth",           "~> 0.5.4"
 gem "octicons_helper", "~> 9.1.1"
 gem "octokit", github: "octokit/octokit.rb"
 gem "octopoller",      "~> 0.1"
-gem "omniauth-github", "~> 1.3"
+gem "omniauth-github", "~> 1.4"
 
 gem "peek",                 "~> 1.0", ">= 1.0.1"
 gem "peek-dalli",           "1.2.0"

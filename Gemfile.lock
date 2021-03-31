@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/octokit/octokit.rb.git
-  revision: 790a64e58c5072cc5a240f7e4e3ca4718ea7152e
+  revision: e214a28f5a7b08f30c6e8b0c0f1047d13eed027b
   specs:
-    octokit (4.14.0)
+    octokit (4.20.0)
       sawyer (~> 0.8.0, >= 0.5.3)
 
 GEM
@@ -179,7 +179,7 @@ GEM
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
     hashdiff (1.0.0)
-    hashie (3.6.0)
+    hashie (4.1.0)
     httpclient (2.8.3)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -256,9 +256,9 @@ GEM
       nenv (~> 0.1)
       shellany (~> 0.0)
     oauth (0.5.4)
-    oauth2 (1.4.0)
-      faraday (>= 0.8, < 0.13)
-      jwt (~> 1.0)
+    oauth2 (1.4.7)
+      faraday (>= 0.8, < 2.0)
+      jwt (>= 1.0, < 3.0)
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
       rack (>= 1.2, < 3)
@@ -268,15 +268,15 @@ GEM
       octicons (= 9.1.1)
       rails
     octopoller (0.1.0)
-    omniauth (1.9.0)
-      hashie (>= 3.4.6, < 3.7.0)
+    omniauth (1.9.1)
+      hashie (>= 3.4.6)
       rack (>= 1.6.2, < 3)
-    omniauth-github (1.3.0)
+    omniauth-github (1.4.0)
       omniauth (~> 1.5)
       omniauth-oauth2 (>= 1.4.0, < 2.0)
-    omniauth-oauth2 (1.4.0)
-      oauth2 (~> 1.0)
-      omniauth (~> 1.2)
+    omniauth-oauth2 (1.7.1)
+      oauth2 (~> 1.4)
+      omniauth (>= 1.9, < 3)
     os (1.0.1)
     parallel (1.12.0)
     parser (2.4.0.0)
@@ -538,7 +538,7 @@ DEPENDENCIES
   octicons_helper (~> 9.1.1)
   octokit!
   octopoller (~> 0.1)
-  omniauth-github (~> 1.3)
+  omniauth-github (~> 1.4)
   peek (~> 1.0, >= 1.0.1)
   peek-dalli (= 1.2.0)
   peek-gc (~> 0.0.2)
