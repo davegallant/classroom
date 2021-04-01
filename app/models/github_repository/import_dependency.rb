@@ -15,7 +15,7 @@ class GitHubRepository
         vcs_password: @client.access_token
       }
 
-      @client.start_source_import(@id, "https://github.com/#{source.full_name}", options)
+      @client.start_source_import(@id, "#{GitHubClassroom.github_url}/#{source.full_name}", options)
     end
   end
 
